@@ -1,0 +1,20 @@
+{
+  "name": "carcara-tickets",
+  "version": "1.0.0",
+  "description": "Sistema de tickets de suporte para clientes da carcará",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Gui_Diniz@bitbucket.org/Gui_Diniz/tickets.git"
+  },
+  "homepage": "https://bitbucket.org/Gui_Diniz/tickets#readme",
+  "author": "Guilherme Diniz",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "webpack": "^1.14.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "carcara-tickets",
+  "description": "Sistema de tickets de suporte para clientes da carcará",
+  "main": "init.js",
+  "authors": [
+    "Guilherme Diniz"
+  ],
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Gui_Diniz/tickets#readme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

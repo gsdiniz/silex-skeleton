@@ -1,0 +1,4 @@
+{
+  "proxy": "http://proxy.saude.gov:80",
+  "https-proxy": "http://proxy.saude.gov:80"
+}

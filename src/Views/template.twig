@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+    <link type="text/css" rel="stylesheet" href="{{ asset('app.css', 'css') }}">
+</head>
+<body>
+<div id="content">{% block content %}{% endblock %}</div>
+<script type="text/javascript" src="{{ asset('app.js', 'js') }}"></script>
+</body>
+</html>

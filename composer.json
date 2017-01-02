@@ -1,0 +1,20 @@
+{
+    "name": "guilherme/tickets",
+    "require": {
+        "silex/silex": "^2.0",
+        "twig/twig": "^1.30",
+        "symfony/twig-bridge": "^3.2",
+        "monolog/monolog": "^1.22",
+        "symfony/asset": "^3.2",
+        "symfony/var-dumper": "^3.2"
+    },
+    "authors": [
+        {
+            "name": "Guilherme Diniz",
+            "email": "gsdiniz1990@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "App\\": "src/" }
+    }
+}

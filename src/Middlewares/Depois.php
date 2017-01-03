@@ -10,10 +10,13 @@ namespace App\Middlewares;
 
 
 use Silex\Application;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
-class Antes
+class Depois
 {
-    public function log(Application $app){
-        $app->log('Antes');
+    public function log(Request $request, Response $response, Application $app){
+        var_dump($response);
+        $app['monolog']->info('Depois');
     }
 }

@@ -6,7 +6,9 @@
         "symfony/twig-bridge": "^3.2",
         "monolog/monolog": "^1.22",
         "symfony/asset": "^3.2",
-        "symfony/var-dumper": "^3.2"
+        "symfony/var-dumper": "^3.2",
+        "symfony/yaml": "^3.2",
+        "symfony/config": "^3.2"
     },
     "authors": [
         {

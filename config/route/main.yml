@@ -1,0 +1,22 @@
+home:
+  path: /
+  defaults: { _controller: 'App\Controllers\Main::homeAction' }
+  methods:  [GET]
+#  options:
+#   _before_middlewares: ['App\Middlewares\Antes::log']
+#   _after_middlewares: ['App\Middlewares\Depois::log']
+#  requirements:
+#   id: \d+
+
+hello:
+  path: /hello/{name}
+  defaults: { _controller: 'App\Controllers\Main::helloAction' }
+  methods:  [POST]
+
+api:
+  prefix: /api
+  resource: api.yml
+
+blog:
+  prefix: /blog
+  resource: blog.yml

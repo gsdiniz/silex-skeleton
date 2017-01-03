@@ -9,7 +9,8 @@ require_once '../vendor/autoload.php';
 
 use App\Bootstrap;
 
-$app = Bootstrap::init();
-$app['debug'] = true;
-
-$app->run();
+Bootstrap::init()
+    ->setDebug(true)
+    ->registerLogService()
+    ->configRoutes()
+    ->run();

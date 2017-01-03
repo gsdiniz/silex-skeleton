@@ -9,7 +9,13 @@
 namespace App\Middlewares;
 
 
+use Silex\Application;
+use Symfony\Component\HttpFoundation\Request;
+
 class Antes
 {
-
+    public function log(Request $request, Application $app){
+        var_dump($request);
+        $app['monolog']->info('Antes');
+    }
 }

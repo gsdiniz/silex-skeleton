@@ -12,5 +12,7 @@ use App\Bootstrap;
 Bootstrap::init()
     ->setDebug(true)
     ->registerLogService()
+    ->registerTwigService()
+    ->registerAssetService()
     ->configRoutes()
     ->run();

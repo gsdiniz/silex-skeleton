@@ -132,7 +132,7 @@ class Bootstrap
      */
     public function setDebug($debug = false){
         ErrorHandler::register();
-        ExceptionHandler::register(false);
+        ExceptionHandler::register($debug);
         $this->app['debug'] = $debug;
         return $this;
     }

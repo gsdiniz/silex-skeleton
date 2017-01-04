@@ -8,15 +8,14 @@
 
 namespace App\Controllers;
 
-
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class Main
 {
-    public function homeAction(){
-        return new Response('App\Controllers\Main::homeAction');
+    public function homeAction(Application $app){
+        return $app['twig']->render('main/messages.twig');
     }
 
     public function helloAction(Request $request, Application $app){

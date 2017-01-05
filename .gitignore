@@ -47,5 +47,6 @@ fabric.properties
 .idea/
 node_modules/
 bower_components/
-/vendor/
+vendor/
 data/
+web/bundle/

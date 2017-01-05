@@ -2,10 +2,10 @@
 <html>
 <head>
     <title>My Webpage</title>
-    <link type="text/css" rel="stylesheet" href="{{ asset('app.css', 'css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ asset('main.min.css', 'css') }}">
 </head>
 <body>
 <div id="content">{% block content %}{% endblock %}</div>
-<script type="text/javascript" src="{{ asset('bundle.js', 'js') }}"></script>
+<script type="text/javascript" src="{{ asset('main.min.js', 'js') }}"></script>
 </body>
 </html>

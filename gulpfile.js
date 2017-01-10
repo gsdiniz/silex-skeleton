@@ -14,7 +14,7 @@ var gulp = require('gulp'),
 
 
 gulp.task('scripts', function() {
-    return gulp.src('web/dev/js/**/*.js')
+    return gulp.src(['bower_components/**/dist/**/*.min.js','web/dev/js/**/*.js'])
         .pipe(concat('main.js'))
         .pipe(gulp.dest('web/bundle/js'))
         .pipe(rename({suffix: '.min'}))
@@ -25,7 +25,7 @@ gulp.task('scripts', function() {
 
 // Styles
 gulp.task('styles', function() {
-    return gulp.src('web/dev/css/**/*.css')
+    return gulp.src(['bower_components/**/dist/**/*.min.css','web/dev/css/**/*.css'])
         .pipe(cssnano())
         .pipe(autoprefixer('last 2 version'))
         .pipe(concat('main.css'))

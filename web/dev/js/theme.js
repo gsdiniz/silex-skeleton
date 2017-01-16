@@ -14,7 +14,6 @@
     initBtnFile();
     initMap();
     initHold();
-    initCaptcha();
     initAjaxContactForm();
     initAjaxUploader();
   });

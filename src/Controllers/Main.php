@@ -15,7 +15,7 @@ use Symfony\Component\HttpFoundation\Response;
 class Main
 {
     public function homeAction(Application $app){
-        return $app['twig']->render('main/messages.twig');
+        return $app['twig']->render('main/home.twig');
     }
 
     public function helloAction(Request $request, Application $app){

@@ -1,11 +1,7 @@
-**Sistema de Suporte da Agência Carcará**
+**_Skeleton de aplicação usando Silex_**
 
 **_Arquitetura_**
 - Silex
 - Angular 2
-- WebPack
+- Gulp
 - NodeJS
-
-**_Usuários_**
-- Carcarás
-- Clientes

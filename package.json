@@ -1,16 +1,13 @@
 {
-  "name": "carcara-tickets",
+  "name": "silex-skeleton",
   "version": "1.0.0",
-  "description": "Sistema de tickets de suporte para clientes da carcará",
-  "main": "init.js",
-  "scripts": {
-    "build": "webpack"
-  },
+  "description": "Skeleton de aplicação usando Silex",
+  "main": "",
   "repository": {
     "type": "git",
-    "url": "git+https://Gui_Diniz@bitbucket.org/Gui_Diniz/tickets.git"
+    "url": "git+https://github.com/gsdiniz/silex-skeleton.git"
   },
-  "homepage": "https://bitbucket.org/Gui_Diniz/tickets#readme",
+  "homepage": "https://github.com/gsdiniz/silex-skeleton",
   "author": "Guilherme Diniz",
   "license": "ISC",
   "devDependencies": {

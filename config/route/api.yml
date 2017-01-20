@@ -1,4 +1,0 @@
-api.list:
-  path:     /list
-  defaults: { _controller: 'App\Controllers\Api::listAction' }
-  methods: [PUT]
